@@ -1,0 +1,25 @@
+{
+  "name": "uniquename-socialnetworking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damon-Hansen/UniqueName-Socialnetworking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Damon-Hansen/UniqueName-Socialnetworking/issues"
+  },
+  "homepage": "https://github.com/Damon-Hansen/UniqueName-Socialnetworking#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  }
+}

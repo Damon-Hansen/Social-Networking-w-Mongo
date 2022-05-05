@@ -30,6 +30,8 @@ router.route('/thoughts/:id')
 
 router.route('/thoughts/:id/reactions')
 .post(createReaction)
+
+router.route('/thoughts/:id/reactions/:reactionId')
 .delete(deleteReaction)
 
 module.exports = router;
